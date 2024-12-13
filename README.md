@@ -36,7 +36,7 @@ This script uses the data produced by `kubernetes_timeline_prase.py` to create a
 Ensure the input log file is named timeline.log or modify the script to match your filename.
 
 2. Use the output file processed_pods.txt as input for the visualization script:
-  ```bash
-  python kubernetes_timeline_show.py
-
+   ```bash
+   python kubernetes_timeline_show.py
+   
 The script will display a visual timeline of the deployment process.
